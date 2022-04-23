@@ -9,9 +9,9 @@ parameters:
           # protected: []
       container:
         auto:
-          - Jaxon\Demo\Service\Example
+          - App\Service\Example
         alias:
-          Jaxon\Demo\Service\ExampleInterface: Jaxon\Demo\Service\Example
+          App\Service\ExampleInterface: App\Service\Example
 
     lib:
       core:
@@ -26,20 +26,20 @@ parameters:
           verbose:                    false
         error:
           handle:                     false
-        js:
-          lib:
-          app:
-          export:                     false
-          minify:                     false
-        dialogs:
-          libraries:                  [pgwjs]
-          default:
-            modal:                    bootstrap
-            message:                  toastr
-          toastr:
-            options:
-              closeButton:            true
-              positionClass:          toast-top-center
-          assets:
-            include:
-              all:                    true
+      js:
+        lib:
+        app:
+        export:                       false
+        minify:                       false
+      dialogs:
+        libraries:                    [pgwjs]
+        default:
+          modal:                      bootstrap
+          message:                    toastr
+        toastr:
+          options:
+            closeButton:              true
+            positionClass:            toast-top-center
+        assets:
+          include:
+            all:                      true

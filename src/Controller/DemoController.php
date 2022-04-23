@@ -2,15 +2,14 @@
 
 namespace App\Controller;
 
+use Jaxon\Demo\Ajax\Bts;
+use Jaxon\Demo\Ajax\Pgw;
 use Jaxon\Symfony\Jaxon;
 use Psr\Log\LoggerInterface;
 use Symfony\Component\Routing\Annotation\Route;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Session\Session;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
-
-use Jaxon\App\Test\Bts;
-use Jaxon\App\Test\Pgw;
 
 use function jaxon;
 use function pm;

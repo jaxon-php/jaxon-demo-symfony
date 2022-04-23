@@ -1,8 +1,6 @@
 {
     "type": "project",
     "license": "proprietary",
-    "minimum-stability": "stable",
-    "prefer-stable": true,
     "require": {
         "php": ">=7.2.5",
         "ext-ctype": "*",
@@ -103,5 +101,7 @@
             "allow-contrib": false,
             "require": "5.4.*"
         }
-    }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
