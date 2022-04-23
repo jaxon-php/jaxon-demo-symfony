@@ -21,5 +21,5 @@ Configure a web server to give access to the `public` subdir.
 For example, with the Symfony builtin web server:
 
 ```bash
-php bin/console serve
+symfony server:start
 ```
