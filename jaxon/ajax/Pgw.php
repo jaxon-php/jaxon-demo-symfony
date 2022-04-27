@@ -8,7 +8,12 @@ use App\Service\ExampleInterface;
 class Pgw extends JaxonClass
 {
     /**
-     * @di('attr' => 'example', 'class' => 'App\Service\ExampleInterface')
+     * @var ExampleInterface
+     */
+    protected $example;
+
+    /**
+     * @di('attr' => 'example', 'class' => 'ExampleInterface')
      */
     public function sayHello($isCaps)
     {
@@ -26,7 +31,7 @@ class Pgw extends JaxonClass
     }
 
     /**
-     * @di('attr' => 'example', 'class' => 'App\Service\ExampleInterface')
+     * @di('attr' => 'example', 'class' => 'ExampleInterface')
      */
     public function setColor($sColor)
     {
