@@ -11,8 +11,7 @@ use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Session\Session;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 
-use function jaxon;
-use function pm;
+use function Jaxon\pm;
 
 class DemoController extends AbstractController
 {
@@ -31,7 +30,7 @@ class DemoController extends AbstractController
             'bts' => $jaxon->request(Bts::class),
             // Jaxon request to the Pgw Jaxon class
             'pgw' => $jaxon->request(Pgw::class),
-            // Jaxon Request Factory
+            // Jaxon Parameter Factory
             'pm' => pm(),
         ]);
     }
