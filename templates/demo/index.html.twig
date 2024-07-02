@@ -5,7 +5,7 @@
 {% include 'demo/includes/nav.html.twig' %}
             <div class="col-sm-9 content">
                 <h3 class="page-header">{{ pageTitle }}</h3>
-                <div class="row" id="jaxon-html">
+                <div class="row">
                     <div class="col-md-12" jxn-show="{{ appTest|jxnShow }}">
                         Initial content : {{ appTest|jxnHtml }}
                     </div>
@@ -43,8 +43,8 @@
 <script type='text/javascript'>
     /* <![CDATA[ */
     window.onload = function() {
-        {{ extTest.sayHello(true)|raw }};
-        {{ appTest.sayHello(true)|raw }};
+        {{ extTest.sayHello(false)|raw }};
+        {{ appTest.sayHello(false)|raw }};
     }
     /* ]]> */
 </script>

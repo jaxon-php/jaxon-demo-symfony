@@ -6,6 +6,6 @@ class Buttons extends \Jaxon\App\Component
 {
     public function html(): string
     {
-        return $this->view()->render('demo/buttons/ext', ['test' => $this->rq(Test::class)]) . '';
+        return $this->view()->render('demo.buttons.ext', ['test' => $this->rq(Test::class)]) . '';
     }
 }
