@@ -1,2 +1,2 @@
-<button type="button" class="btn btn-primary" jxn-click="{{ test.sayHello(true)|jxnFunc }}" >CLICK ME</button>
-<button type="button" class="btn btn-primary" jxn-click="{{ test.sayHello(false)|jxnFunc }}" >Click Me</button>
+<button type="button" class="btn btn-primary" {{ jxnOn('click', test.sayHello(true)) }}>CLICK ME</button>
+<button type="button" class="btn btn-primary" {{ jxnOn('click', test.sayHello(false)) }}>Click Me</button>

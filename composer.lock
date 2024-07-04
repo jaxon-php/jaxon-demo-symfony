@@ -1605,12 +1605,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/jaxon-php/jaxon-core.git",
-                "reference": "68032171fbdea52632113b25b3ecd10067625382"
+                "reference": "d8a929fdb149550ed5cfb0e0da59ce375f6252af"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jaxon-php/jaxon-core/zipball/68032171fbdea52632113b25b3ecd10067625382",
-                "reference": "68032171fbdea52632113b25b3ecd10067625382",
+                "url": "https://api.github.com/repos/jaxon-php/jaxon-core/zipball/d8a929fdb149550ed5cfb0e0da59ce375f6252af",
+                "reference": "d8a929fdb149550ed5cfb0e0da59ce375f6252af",
                 "shasum": ""
             },
             "require": {
@@ -1678,7 +1678,7 @@
                 "issues": "https://github.com/jaxon-php/jaxon-core/issues",
                 "source": "https://github.com/jaxon-php/jaxon-core"
             },
-            "time": "2024-06-30T12:42:39+00:00"
+            "time": "2024-07-02T18:19:11+00:00"
         },
         {
             "name": "jaxon-php/jaxon-dialogs",
@@ -1740,12 +1740,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/jaxon-php/jaxon-symfony.git",
-                "reference": "346d94eaa5e9e7a977c7b90f7fdc2f4b2d988460"
+                "reference": "8452e8808898c90203fe8e1f23d55664b485fb5f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jaxon-php/jaxon-symfony/zipball/346d94eaa5e9e7a977c7b90f7fdc2f4b2d988460",
-                "reference": "346d94eaa5e9e7a977c7b90f7fdc2f4b2d988460",
+                "url": "https://api.github.com/repos/jaxon-php/jaxon-symfony/zipball/8452e8808898c90203fe8e1f23d55664b485fb5f",
+                "reference": "8452e8808898c90203fe8e1f23d55664b485fb5f",
                 "shasum": ""
             },
             "require": {
@@ -1783,7 +1783,7 @@
                 "issues": "https://github.com/jaxon-php/jaxon-symfony/issues",
                 "source": "https://github.com/jaxon-php/jaxon-symfony"
             },
-            "time": "2024-06-30T15:38:31+00:00"
+            "time": "2024-07-04T17:32:24+00:00"
         },
         {
             "name": "jaxon-php/jaxon-utils",
