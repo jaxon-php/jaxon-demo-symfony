@@ -23,15 +23,5 @@ services:
     # add more service definitions when explicit configuration is needed
     # please note that last definitions always *replace* previous ones
 
-    jaxon.ajax.utils:
-        class: Jaxon\Symfony\Utils
-    Jaxon\Symfony\Jaxon:
-        arguments:
-            - '@kernel'
-            - '@logger'
-            - '@twig'
-            - '@=service(service("jaxon.ajax.utils").getSessionService())'
-            - '%jaxon%'
-
 imports:
-    - { resource: jaxon.yaml }
+    - { resource: packages/jaxon.yaml }
