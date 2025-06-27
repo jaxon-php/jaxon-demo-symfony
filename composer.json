@@ -1,8 +1,6 @@
 {
     "type": "project",
     "license": "proprietary",
-    "minimum-stability": "stable",
-    "prefer-stable": true,
     "require": {
         "php": ">=8.1",
         "ext-ctype": "*",
@@ -12,6 +10,7 @@
         "doctrine/doctrine-migrations-bundle": "^3.4",
         "doctrine/orm": "^3.4",
         "jaxon-php/jaxon-annotations": "^3.0",
+        "jaxon-php/jaxon-demo-calc": "dev-main",
         "jaxon-php/jaxon-dialogs": "^5.0",
         "jaxon-php/jaxon-symfony": "^5.0",
         "phpdocumentor/reflection-docblock": "^5.6",
@@ -106,5 +105,7 @@
         "symfony/maker-bundle": "^1.0",
         "symfony/stopwatch": "6.4.*",
         "symfony/web-profiler-bundle": "6.4.*"
-    }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "7e8c129a8d1fe7c7d59870f8c213b0db",
+    "content-hash": "c70712ef4a2c81f024829d8ee45e294e",
     "packages": [
         {
             "name": "composer/semver",
@@ -1559,6 +1559,55 @@
                 "source": "https://github.com/jaxon-php/jaxon-core"
             },
             "time": "2025-06-24T00:37:41+00:00"
+        },
+        {
+            "name": "jaxon-php/jaxon-demo-calc",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/jaxon-php/jaxon-demo-calc.git",
+                "reference": "ecc3e2c1409dc9cc63cd922ee28da2ce07d0f700"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/jaxon-php/jaxon-demo-calc/zipball/ecc3e2c1409dc9cc63cd922ee28da2ce07d0f700",
+                "reference": "ecc3e2c1409dc9cc63cd922ee28da2ce07d0f700",
+                "shasum": ""
+            },
+            "require": {
+                "jaxon-php/jaxon-core": "^5.0",
+                "jaxon-php/jaxon-dialogs": "^5.0"
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Jaxon\\Demo\\Calc\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Thierry Feuzeu"
+                }
+            ],
+            "description": "A simple calculator implemented as a Jaxon package",
+            "homepage": "https://github.com/jaxon-php/jaxon-demo-calc",
+            "keywords": [
+                "Jaxon",
+                "ajax",
+                "calculator",
+                "demo",
+                "php"
+            ],
+            "support": {
+                "issues": "https://github.com/jaxon-php/jaxon-demo-calc/issues",
+                "source": "https://github.com/jaxon-php/jaxon-demo-calc"
+            },
+            "time": "2025-06-27T19:49:23+00:00"
         },
         {
             "name": "jaxon-php/jaxon-dialogs",
@@ -10694,7 +10743,7 @@
         }
     ],
     "aliases": [],
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "stability-flags": [],
     "prefer-stable": true,
     "prefer-lowest": false,
