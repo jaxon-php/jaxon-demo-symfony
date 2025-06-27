@@ -1566,12 +1566,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/jaxon-php/jaxon-demo-calc.git",
-                "reference": "ecc3e2c1409dc9cc63cd922ee28da2ce07d0f700"
+                "reference": "7bd8d1ca66d63a94435371df5113b7694ce400b8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jaxon-php/jaxon-demo-calc/zipball/ecc3e2c1409dc9cc63cd922ee28da2ce07d0f700",
-                "reference": "ecc3e2c1409dc9cc63cd922ee28da2ce07d0f700",
+                "url": "https://api.github.com/repos/jaxon-php/jaxon-demo-calc/zipball/7bd8d1ca66d63a94435371df5113b7694ce400b8",
+                "reference": "7bd8d1ca66d63a94435371df5113b7694ce400b8",
                 "shasum": ""
             },
             "require": {
@@ -1607,7 +1607,7 @@
                 "issues": "https://github.com/jaxon-php/jaxon-demo-calc/issues",
                 "source": "https://github.com/jaxon-php/jaxon-demo-calc"
             },
-            "time": "2025-06-27T19:49:23+00:00"
+            "time": "2025-06-27T22:44:37+00:00"
         },
         {
             "name": "jaxon-php/jaxon-dialogs",
@@ -1671,16 +1671,16 @@
         },
         {
             "name": "jaxon-php/jaxon-symfony",
-            "version": "v5.0.0",
+            "version": "v5.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/jaxon-php/jaxon-symfony.git",
-                "reference": "d7b7447f24c1f82c1e29bc76a0dabd4050e292a1"
+                "reference": "d553dcb958334e724f4ba62af69187332e936ee3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jaxon-php/jaxon-symfony/zipball/d7b7447f24c1f82c1e29bc76a0dabd4050e292a1",
-                "reference": "d7b7447f24c1f82c1e29bc76a0dabd4050e292a1",
+                "url": "https://api.github.com/repos/jaxon-php/jaxon-symfony/zipball/d553dcb958334e724f4ba62af69187332e936ee3",
+                "reference": "d553dcb958334e724f4ba62af69187332e936ee3",
                 "shasum": ""
             },
             "require": {
@@ -1721,7 +1721,7 @@
                 "issues": "https://github.com/jaxon-php/jaxon-symfony/issues",
                 "source": "https://github.com/jaxon-php/jaxon-symfony"
             },
-            "time": "2025-06-27T15:43:07+00:00"
+            "time": "2025-06-27T22:42:39+00:00"
         },
         {
             "name": "jaxon-php/jaxon-utils",
@@ -10744,7 +10744,9 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {
+        "jaxon-php/jaxon-demo-calc": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
