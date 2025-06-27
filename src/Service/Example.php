@@ -6,7 +6,7 @@ class Example implements ExampleInterface
 {
     public function message(bool $isCaps): string
     {
-        return ($isCaps) ? 'HELLO WORLD!!!!' : 'Hello World!!!!';
+        return $isCaps ? 'HELLO WORLD!!!!' : 'Hello World!!!!';
     }
 
     public function color(string $name): string

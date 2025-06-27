@@ -2,14 +2,12 @@
 
 namespace App\Controller;
 
-use Jaxon\Demo\Ajax\App\Test as AppTest;
-use Jaxon\Demo\Ajax\App\Buttons as AppButtons;
-use Jaxon\Demo\Ajax\Ext\Test as ExtTest;
-use Jaxon\Demo\Ajax\Ext\Buttons as ExtButtons;
+use Demo\Ajax\App\Test as AppTest;
+use Demo\Ajax\App\Buttons as AppButtons;
+use Demo\Ajax\Ext\Test as ExtTest;
+use Demo\Ajax\Ext\Buttons as ExtButtons;
 use Symfony\Component\Routing\Annotation\Route;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
-
-use function Jaxon\rq;
 
 class DemoController extends AbstractController
 {
@@ -19,9 +17,9 @@ class DemoController extends AbstractController
         // Print the page
         return $this->render('demo/index.html.twig', [
             'pageTitle' => "Symfony Framework",
-            'appTest' => rq(AppTest::class),
+            'rqAppTest' => rq(AppTest::class),
             'rqAppButtons' => rq(AppButtons::class),
-            'extTest' => rq(ExtTest::class),
+            'rqExtTest' => rq(ExtTest::class),
             'rqExtButtons' => rq(ExtButtons::class),
         ]);
     }
