@@ -10,7 +10,6 @@ use Jaxon\Demo\Calc\Package as CalcPackage;
 use Symfony\Component\Routing\Annotation\Route;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 
-use function jaxon;
 use function rq;
 
 class DemoController extends AbstractController
@@ -24,7 +23,7 @@ class DemoController extends AbstractController
             'rqAppButtons' => rq(AppButtons::class),
             'rqExtTest' => rq(ExtTest::class),
             'rqExtButtons' => rq(ExtButtons::class),
-            'calcPackage' => jaxon()->package(CalcPackage::class),
+            'calcPackageClass' => CalcPackage::class,
         ]);
     }
 }
